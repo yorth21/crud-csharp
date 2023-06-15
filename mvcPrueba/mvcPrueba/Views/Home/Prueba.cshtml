@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model List<PruebaVewModel>
+
+@{
+    <a href='@Url.Action("Insert", "Home")' class="btn btn-primary">Insertar</a>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Marca</th>
+            <th>Alcohol</th>
+            <th>Cantidad</th>
+            <th>Btn</th>
+        </thead>
+        <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Marca</td>
+                    <td>@item.Alcohol</td>
+                    <td>@item.Cantidad</td>
+                    <td><a class="btn btn-danger" href='@Url.Action("Delete", "Home", new { Id = item.Id })' >Eliminar</a></td>
+                    <td><a class="btn btn-success" href='@Url.Action("Insert", "Home", new { Id = item.Id })'>Actualizar</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

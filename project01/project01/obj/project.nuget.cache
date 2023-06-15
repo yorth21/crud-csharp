@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5fUJTrWTv3fJh54dzdbp8qzhTq/FHG7idxwtqNCW2qQOkkeBN1OruA2k5KbToTVq5+OYAIjmsFGcWlUwl1H9hQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yorth21\\source\\repos\\project01\\project01\\project01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yorth21\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

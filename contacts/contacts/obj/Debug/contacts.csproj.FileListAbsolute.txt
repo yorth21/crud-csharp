@@ -1,0 +1,11 @@
+C:\Users\yorth21\source\repos\contacts\contacts\bin\Debug\contacts.exe.config
+C:\Users\yorth21\source\repos\contacts\contacts\bin\Debug\contacts.exe
+C:\Users\yorth21\source\repos\contacts\contacts\bin\Debug\contacts.pdb
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.csproj.AssemblyReference.cache
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.csproj.SuggestedBindingRedirects.cache
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.Form1.resources
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.Properties.Resources.resources
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.csproj.GenerateResource.cache
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.csproj.CoreCompileInputs.cache
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.exe
+C:\Users\yorth21\source\repos\contacts\contacts\obj\Debug\contacts.pdb

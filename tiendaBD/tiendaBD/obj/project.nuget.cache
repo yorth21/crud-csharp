@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "MJutKZwrNOhRwnCgsxq50ZAhLI4/Bs4+/1Rra0HpX9oq/SR5cUbP76B/po+sJmezuP6IbaJhaquI5tvdBa7Gvg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yorth21\\source\\repos\\tiendaBD\\tiendaBD\\tiendaBD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yorth21\\.nuget\\packages\\dapper\\2.0.138\\dapper.2.0.138.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
+    "C:\\Users\\yorth21\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

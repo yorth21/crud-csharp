@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model ClienteViewModel
+
+@{
+    ViewData["Title"] = "Formulario";
+}
+
+<form id="addForm">
+    <div class="mb-3">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input class="form-control" id="Nombre" name="Nombre">
+    </div>
+    <div class="mb-3">
+        <label for="Ciudad" class="form-label">Ciudad</label>
+        <input class="form-control" id="Ciudad" name="Ciudad">
+    </div>
+    <div class="mb-3">
+        <label for="Pais" class="form-label">Pais</label>
+        <input class="form-control" id="Pais" name="Pais">
+    </div>
+    <button onclick="addItem(event)" class="btn btn-primary">Agregar</button>
+</form>
+
+<script>
+    function addItem(event) {
+        event.preventDefault(); // Evitar comportamiento predeterminado del botón
+
+        // Mostrar alerta de confirmación
+        if (confirm("¿Estás seguro de agregar este cliente?")) {
+            // Usuario hizo clic en "Aceptar"
+            var formData = {
+                Nombre: $('#Nombre').val(),
+                Ciudad: $('#Ciudad').val(),
+                Pais: $('#Pais').val()
+            };
+
+            $.ajax({
+                url: '@Url.Action("Add", "Home")',
+                type: 'POST',
+                data: formData,
+                success: function (response) {
+                    if (response.success) {
+                        console.log(response.message); // Mensaje de eliminación exitosa
+                        // Realiza acciones adicionales si es necesario
+                        $('#addForm')[0].reset(); // Limpiar el formulario
+                        alert(response.message); // Mostrar mensaje de éxito
+                    } else {
+                        console.log(response.message); // Mensaje de error en la eliminación
+                        // Maneja el error de acuerdo a tus necesidades
+                    }
+                },
+                error: function (error) {
+                    console.error('Error al agregar el cliente:', error);
+                    // Maneja el error de acuerdo a tus necesidades
+                }
+            });
+        }
+    }
+</script>
+
+
