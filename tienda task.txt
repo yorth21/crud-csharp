@@ -1,0 +1,39 @@
+Tablas:
+
+Clientes: -------------------------------------------------
+cliente_id (int, clave primaria)
+nombre_cliente (varchar)
+dirección (varchar)
+ciudad (varchar)
+país (varchar)
+
+Pedidos:-------------------------------------------------
+pedido_id (int, clave primaria)
+cliente_id (int, clave foránea referenciando a la tabla Clientes)
+fecha_pedido (date)
+monto_total (decimal)
+
+Productos:-------------------------------------------------
+producto_id (int, clave primaria)
+nombre_producto (varchar)
+precio_unitario (decimal)
+unidades_en_stock (int)
+categoria_id (int, clave foránea referenciando a la tabla Categorías)
+
+Categorías:-------------------------------------------------
+categoria_id (int, clave primaria)
+nombre_categoria (varchar)
+
+Ejercicios:
+
+Inserta al menos 5 clientes en la tabla Clientes y 10 productos en la tabla Productos.
+
+
+
+
+
+Elimina todos los productos que tengan unidades en stock igual a cero.
+Encuentra los 3 países con el mayor número de clientes.
+Crea una vista que muestre los productos junto con su categoría y el nombre del cliente que ha realizado más pedidos de ese producto.
+Encuentra los clientes que no han realizado ningún pedido.
+Calcula el promedio de unidades en stock por categoría de productos.
